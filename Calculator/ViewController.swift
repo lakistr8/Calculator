@@ -161,8 +161,15 @@ extension ViewController {
         let opr = numb * (-1)
         resultField.text = String(opr)
     }
-
-
-
     
+    @IBAction func deleteButtonTapped(_ sender:UIButton) {
+        defer {
+            self.didUntouchButton(sender)
+        }
+        var value = resultField.text ?? ""
+        guard value.characters.count > 0 else { return }
+        var chars = value.characters
+        chars.removeLast()
+        resultField.text = String(chars)
+    }
 }
