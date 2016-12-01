@@ -308,6 +308,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="changeSingButton" destination="09z-4x-e1I" id="8cG-KJ-mbw"/>
+                        <outlet property="clearButton" destination="lB5-ae-2f7" id="u9t-PO-Kc3"/>
+                        <outlet property="decimalButton" destination="PQm-HI-Neb" id="uhk-w9-yTo"/>
+                        <outlet property="deleteButton" destination="oih-Dg-lHs" id="tWn-nX-AWP"/>
                         <outletCollection property="digitButtons" destination="RnF-Db-kIp" collectionClass="NSMutableArray" id="hEt-eb-ggl"/>
                         <outletCollection property="digitButtons" destination="6e2-WV-H5W" collectionClass="NSMutableArray" id="P0a-1B-kDr"/>
                         <outletCollection property="digitButtons" destination="5Mb-VU-ve3" collectionClass="NSMutableArray" id="zMU-Ws-DLg"/>
