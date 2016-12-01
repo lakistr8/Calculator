@@ -57,6 +57,9 @@
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rVr-tV-AoA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mb-VU-ve3">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -113,6 +116,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="92.5"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="X"/>
+                                                <connections>
+                                                    <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="piV-Pi-j4o"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESx-I2-aoE">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="92.5"/>
@@ -169,6 +175,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D5B-q3-Il3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BpV-M4-c4l">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
@@ -225,6 +234,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="92.5"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQZ-rE-gZs"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBV-e1-p7r">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="92.5"/>
@@ -248,6 +260,9 @@
                                                 <rect key="frame" x="282" y="0.0" width="93" height="92.5"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="="/>
+                                                <connections>
+                                                    <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Pi-8c-Bfo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -278,6 +293,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="%"/>
+                                                <connections>
+                                                    <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7J-fr-M7a"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09z-4x-e1I">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>

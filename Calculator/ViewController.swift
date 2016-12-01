@@ -172,4 +172,77 @@ extension ViewController {
         chars.removeLast()
         resultField.text = String(chars)
     }
+    
+    @IBAction func didTapOperator(_ sender: UIButton) {
+        
+        defer {
+            self.didUntouchButton(sender)
+        }
+        
+        var isEquals = false
+        
+        
+        guard let caption = sender.title(for: .normal) else { return }
+        
+        switch caption {
+        case "+":
+            activeOperation = .add
+        case "-":
+            activeOperation = .subtract
+        case "X":
+            activeOperation = .multiply
+        case "÷":
+            activeOperation = .divide
+        case "%":
+            activeOperation = .percent
+        case "=":
+            isEquals = true
+        default:
+            activeOperation = .none
+        }
+        if (isEquals) {
+            
+            
+            guard let numb = validateOperandInput() else {
+                resultField.text = nil
+                return
+            }
+            
+            secondOperand = numb
+            
+            var raz = firsOperand
+            switch activeOperation {
+            case .add:
+                raz += secondOperand
+            case .subtract:
+                raz -= secondOperand
+            case .multiply:
+                raz *= secondOperand
+            case .divide:
+                raz /= secondOperand
+            case .percent:
+                raz *= secondOperand / 100
+            default:
+                break
+            }
+            
+            resultField.text = String(raz)
+            
+            
+            firsOperand = 0
+            secondOperand = 0
+            
+            
+        } else if activeOperation != .none {
+            
+            guard let numbString = resultField.text else { return }
+            guard let numb = Double(numbString) else {
+                resultField.text = nil
+                return
+            }
+            firsOperand = numb
+            
+            resultField.text = nil
+        }
+    }
 }
