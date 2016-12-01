@@ -51,20 +51,19 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBB-HX-zse">
-                                                <rect key="frame" x="0.0" y="0.0" width="46" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mb-VU-ve3">
-                                                <rect key="frame" x="47" y="0.0" width="46" height="50"/>
+                                                <rect key="frame" x="94" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6e2-WV-H5W">
-                                                <rect key="frame" x="94" y="0.0" width="46" height="50"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnF-Db-kIp">
-                                                <rect key="frame" x="280" y="12" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnF-Db-kIp">
+                                                <rect key="frame" x="282" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                         </subviews>
@@ -73,14 +72,19 @@
                                             <constraint firstAttribute="height" constant="50" id="2pF-HO-cAP"/>
                                             <constraint firstItem="5Mb-VU-ve3" firstAttribute="leading" secondItem="kBB-HX-zse" secondAttribute="trailing" constant="1" id="4Bx-wr-O9Y"/>
                                             <constraint firstItem="6e2-WV-H5W" firstAttribute="top" secondItem="5Mb-VU-ve3" secondAttribute="top" id="6ZK-0g-oVE"/>
+                                            <constraint firstItem="RnF-Db-kIp" firstAttribute="bottom" secondItem="6e2-WV-H5W" secondAttribute="bottom" id="7lc-8A-iIM"/>
                                             <constraint firstItem="kBB-HX-zse" firstAttribute="leading" secondItem="kEZ-0e-wFM" secondAttribute="leading" id="DIL-OE-1vs"/>
+                                            <constraint firstItem="RnF-Db-kIp" firstAttribute="width" secondItem="6e2-WV-H5W" secondAttribute="width" id="Dxh-c9-CWo"/>
                                             <constraint firstItem="6e2-WV-H5W" firstAttribute="bottom" secondItem="5Mb-VU-ve3" secondAttribute="bottom" id="I9W-7i-VKq"/>
                                             <constraint firstItem="6e2-WV-H5W" firstAttribute="leading" secondItem="5Mb-VU-ve3" secondAttribute="trailing" constant="1" id="JNb-Bu-NoZ"/>
                                             <constraint firstItem="5Mb-VU-ve3" firstAttribute="top" secondItem="kBB-HX-zse" secondAttribute="top" id="QOh-Mh-yWf"/>
                                             <constraint firstAttribute="bottom" secondItem="kBB-HX-zse" secondAttribute="bottom" id="TJN-1K-hEF"/>
                                             <constraint firstItem="kBB-HX-zse" firstAttribute="top" secondItem="kEZ-0e-wFM" secondAttribute="top" id="UoC-TC-E68"/>
                                             <constraint firstItem="5Mb-VU-ve3" firstAttribute="bottom" secondItem="kBB-HX-zse" secondAttribute="bottom" id="Yjz-c0-g7T"/>
+                                            <constraint firstAttribute="trailing" secondItem="RnF-Db-kIp" secondAttribute="trailing" id="hXU-Rk-QWk"/>
+                                            <constraint firstItem="RnF-Db-kIp" firstAttribute="top" secondItem="6e2-WV-H5W" secondAttribute="top" id="haS-q6-YBs"/>
                                             <constraint firstItem="6e2-WV-H5W" firstAttribute="width" secondItem="5Mb-VU-ve3" secondAttribute="width" id="l5T-Mh-f33"/>
+                                            <constraint firstItem="RnF-Db-kIp" firstAttribute="leading" secondItem="6e2-WV-H5W" secondAttribute="trailing" constant="1" id="mnJ-3M-KfM"/>
                                             <constraint firstItem="5Mb-VU-ve3" firstAttribute="width" secondItem="kBB-HX-zse" secondAttribute="width" id="sdj-JA-Kna"/>
                                         </constraints>
                                     </view>
