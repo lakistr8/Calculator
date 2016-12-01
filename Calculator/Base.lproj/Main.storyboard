@@ -25,23 +25,29 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="N9I-vD-TFm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5OX-V2-PSi">
-                                <rect key="frame" x="67" y="95" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5OX-V2-PSi" userLabel="resultView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="333"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-g3-9Tg">
-                                <rect key="frame" x="67" y="396" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-g3-9Tg" userLabel="keuboard">
+                                <rect key="frame" x="0.0" y="334" width="375" height="333"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="N9I-vD-TFm" secondAttribute="trailing" id="2yU-OL-M12"/>
+                            <constraint firstItem="Ucl-g3-9Tg" firstAttribute="top" secondItem="5OX-V2-PSi" secondAttribute="bottom" constant="1" id="6Yn-ji-TRr"/>
+                            <constraint firstItem="Ucl-g3-9Tg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8cJ-AW-7QV"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Ucl-g3-9Tg" secondAttribute="bottom" id="DJw-CT-g5X"/>
                             <constraint firstItem="N9I-vD-TFm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="F7N-ev-bXZ"/>
+                            <constraint firstAttribute="trailing" secondItem="5OX-V2-PSi" secondAttribute="trailing" id="Uac-32-VOY"/>
+                            <constraint firstItem="5OX-V2-PSi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eDQ-Ki-gS9"/>
                             <constraint firstItem="N9I-vD-TFm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gG6-Id-utX"/>
                             <constraint firstAttribute="bottomMargin" secondItem="N9I-vD-TFm" secondAttribute="bottom" id="icE-GG-hAN"/>
+                            <constraint firstItem="5OX-V2-PSi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="k2o-W9-55F"/>
+                            <constraint firstAttribute="trailing" secondItem="Ucl-g3-9Tg" secondAttribute="trailing" id="mM8-Ng-kV4"/>
+                            <constraint firstItem="Ucl-g3-9Tg" firstAttribute="height" secondItem="5OX-V2-PSi" secondAttribute="height" id="tDC-mX-QdU"/>
                         </constraints>
                     </view>
                 </viewController>
