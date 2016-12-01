@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var digitButtons : [UIButton]!
+    @IBOutlet var operatorButtons : [UIButton]!
+    
    
 }
 
