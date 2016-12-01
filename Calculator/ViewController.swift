@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var changeSingButton : UIButton!
     @IBOutlet weak var clearButton : UIButton!
     @IBOutlet weak var deleteButton : UIButton!
+    @IBOutlet weak var resultField : UITextField!
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return.lightContent
