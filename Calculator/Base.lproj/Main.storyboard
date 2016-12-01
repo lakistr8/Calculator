@@ -52,22 +52,25 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBB-HX-zse">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="50"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="÷"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mb-VU-ve3">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="50"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="7">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6e2-WV-H5W">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="50"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="8"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnF-Db-kIp">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="50"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="9"/>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="2pF-HO-cAP"/>
                                             <constraint firstItem="5Mb-VU-ve3" firstAttribute="leading" secondItem="kBB-HX-zse" secondAttribute="trailing" constant="1" id="4Bx-wr-O9Y"/>
