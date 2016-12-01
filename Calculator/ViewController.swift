@@ -66,10 +66,14 @@ extension ViewController {
         }
         //	ako je uspelo koristimo alpha 2X
         sender.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: a*2)
-        
-        
+    }
+    
+    func didUntouchButton(_ sender: UIButton) {
+        sender.backgroundColor = originalBackgroundColor
+        originalBackgroundColor = nil
         
     }
+
 
     
 }
