@@ -91,24 +91,24 @@
                                             <constraint firstItem="5Mb-VU-ve3" firstAttribute="width" secondItem="kBB-HX-zse" secondAttribute="width" id="sdj-JA-Kna"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWz-hq-Puf" userLabel="raw2">
-                                        <rect key="frame" x="0.0" y="58" width="375" height="50"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWz-hq-Puf" userLabel="raw2">
+                                        <rect key="frame" x="0.0" y="51" width="375" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bv-pL-BuH">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bv-pL-BuH">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="÷"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESx-I2-aoE">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESx-I2-aoE">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfO-Qw-Fwg">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfO-Qw-Fwg">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="8"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0E-hA-8VR">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0E-hA-8VR">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="50"/>
                                                 <state key="normal" title="9"/>
                                             </button>
@@ -138,9 +138,13 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="YWz-hq-Puf" firstAttribute="height" secondItem="kEZ-0e-wFM" secondAttribute="height" id="BnT-Cb-rP0"/>
+                                    <constraint firstItem="YWz-hq-Puf" firstAttribute="trailing" secondItem="kEZ-0e-wFM" secondAttribute="trailing" id="Hfh-KF-EEL"/>
                                     <constraint firstItem="kEZ-0e-wFM" firstAttribute="leading" secondItem="Ucl-g3-9Tg" secondAttribute="leading" id="RSx-ES-Z15"/>
+                                    <constraint firstItem="YWz-hq-Puf" firstAttribute="top" secondItem="kEZ-0e-wFM" secondAttribute="bottom" constant="1" id="VVX-6k-We3"/>
                                     <constraint firstItem="kEZ-0e-wFM" firstAttribute="top" secondItem="Ucl-g3-9Tg" secondAttribute="top" id="Zlc-WM-pBV"/>
                                     <constraint firstAttribute="trailing" secondItem="kEZ-0e-wFM" secondAttribute="trailing" id="tjl-uS-YEX"/>
+                                    <constraint firstItem="YWz-hq-Puf" firstAttribute="leading" secondItem="kEZ-0e-wFM" secondAttribute="leading" id="xoi-82-Tlk"/>
                                 </constraints>
                             </view>
                         </subviews>
