@@ -33,6 +33,8 @@ extension Internal {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        assingButtonTargets()
+        configureDecimalButton()
     }
     
 }
@@ -53,10 +55,12 @@ extension ViewController {
             
         }
     }
-
-    
-    
-    
+    func configureDecimalButton() {
+        let local = NSLocale.current
+        guard let decimalSing = local.decimalSeparator else { return }
+        decimalButton.setTitle(decimalSing, for: .normal)
+        
+    }
     func didTouchButton(_ sender: UIButton) {
         originalBackgorundColor = sender.backgroundColor
         
