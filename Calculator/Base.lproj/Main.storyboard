@@ -64,16 +64,25 @@
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiF-se-jCy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6e2-WV-H5W">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="8"/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OlJ-Lk-n01"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnF-Db-kIp">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="9"/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="opK-lR-Hyy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -111,16 +120,25 @@
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sWd-Tg-HNS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfO-Qw-Fwg">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="92.5"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="5"/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bWV-u4-hdy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0E-hA-8VR">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="92.5"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="6"/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LGx-zp-Y0d"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -158,16 +176,25 @@
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVu-J7-5qZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc8-2A-GUu">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="2"/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sFf-ge-IXM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltt-Wc-cyK">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="3"/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4KJ-5a-TSQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -205,11 +232,17 @@
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C86-Lg-CxG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQm-HI-Neb">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="92.5"/>
                                                 <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="."/>
+                                                <connections>
+                                                    <action selector="didTapDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tr6-aS-SZx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqk-G9-cQs">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="92.5"/>

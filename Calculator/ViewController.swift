@@ -102,6 +102,26 @@ extension ViewController {
         originalBackgorundColor = nil
         
     }
+    
+    @IBAction func didTapDigit(_ sender: UIButton) {
+        
+        defer {
+            self.didUntouchButton(sender)
+        }
+        
+        guard let numString =  sender.title(for: .normal) else { return }
+        var value = resultField.text ?? ""
+        
+        if sender === decimalButton {
+            
+            if value.contains(numString) {
+                return
+            }
+        }
+        
+        value += numString
+        resultField.text = value
+    }
 
 
     
