@@ -30,8 +30,15 @@ class ViewController: UIViewController {
         return nf
     }()
     
-
+    enum AritmeticOperation {
+        case none
+        case add, subtract, multiply, divide, percent, exponent2, exponent3, exponentX, sqrt
+        case equal
+    }
+    var activeOperation = AritmeticOperation.none
     
+    var firsOperand = 0.0
+    var secondOperand = 0.0
    
 }
 
@@ -130,6 +137,8 @@ extension ViewController {
         value += numString
         resultField.text = value
     }
+    
+    
 
 
     
