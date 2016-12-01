@@ -147,6 +147,21 @@ extension ViewController {
         self.didUntouchButton(sender)
         
     }
+    
+    @IBAction func didTapSingChange(_ sender: UIButton) {
+        defer {
+            self.didUntouchButton(sender)
+        }
+        
+        guard let numb = validateOperandInput() else {
+            resultField.text = nil
+            return
+        }
+        firsOperand = numb
+        let opr = numb * (-1)
+        resultField.text = String(opr)
+    }
+
 
 
     

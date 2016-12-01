@@ -285,6 +285,9 @@
                                                 <state key="normal" title="+/-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="didTapSingChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3qR-v9-Dc8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lB5-ae-2f7">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
