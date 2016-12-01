@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var clearButton : UIButton!
     @IBOutlet weak var deleteButton : UIButton!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return.lightContent
+    }
     
    
 }
