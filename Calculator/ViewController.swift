@@ -40,6 +40,22 @@ extension Internal {
 extension ViewController {
     
     
+    func assingButtonTargets() {
+        let allButtons = [clearButton] + digitButtons + operatorButtons + [changeSingButton]
+        for btn in allButtons {
+            btn.addTarget(self,
+                          action: #selector(ViewController.didTouchButton(_:)), for: .touchDown)
+            
+            btn.addTarget(self,
+                          action: #selector(ViewController.didUntouchButton(_:)), for: .touchCancel)
+            btn.addTarget(self,
+                          action: #selector(ViewController.didUntouchButton(_:)), for: .touchUpOutside)
+            
+        }
+    }
+
+    
+    
     
     func didTouchButton(_ sender: UIButton) {
         originalBackgorundColor = sender.backgroundColor
@@ -69,8 +85,8 @@ extension ViewController {
     }
     
     func didUntouchButton(_ sender: UIButton) {
-        sender.backgroundColor = originalBackgroundColor
-        originalBackgroundColor = nil
+        sender.backgroundColor = originalBackgorundColor
+        originalBackgorundColor = nil
         
     }
 
