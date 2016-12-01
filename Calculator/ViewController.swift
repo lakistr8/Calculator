@@ -138,7 +138,15 @@ extension ViewController {
         resultField.text = value
     }
     
-    
+    @IBAction func didTapAllClear(_ sender: UIButton) {
+        activeOperation = .none
+        resultField.text = nil
+        firsOperand = 0
+        secondOperand = 0
+        
+        self.didUntouchButton(sender)
+        
+    }
 
 
     
