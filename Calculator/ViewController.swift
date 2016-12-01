@@ -24,6 +24,14 @@ class ViewController: UIViewController {
         return.lightContent
     }
     
+    let formatter : NumberFormatter = {
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        return nf
+    }()
+    
+
+    
    
 }
 
