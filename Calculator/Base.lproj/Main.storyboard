@@ -53,7 +53,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBB-HX-zse">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -114,7 +114,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bv-pL-BuH">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="92.5"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="X"/>
                                                 <connections>
                                                     <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="piV-Pi-j4o"/>
@@ -173,7 +173,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXs-Co-QpW">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="+"/>
                                                 <connections>
                                                     <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D5B-q3-Il3"/>
@@ -232,7 +232,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh0-fj-g6z">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="92.5"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="-"/>
                                                 <connections>
                                                     <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQZ-rE-gZs"/>
@@ -291,7 +291,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ny-D2-W50">
                                                 <rect key="frame" x="0.0" y="0.0" width="93" height="93"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="%"/>
                                                 <connections>
                                                     <action selector="didTapOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7J-fr-M7a"/>
@@ -299,7 +299,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09z-4x-e1I">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="93"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="+/-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -309,7 +309,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lB5-ae-2f7">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="93"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="AC"/>
                                                 <connections>
                                                     <action selector="didTapAllClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WXG-IC-3AC"/>
@@ -317,7 +317,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oih-Dg-lHs">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="93"/>
-                                                <color key="backgroundColor" white="1" alpha="0.097338299418604654" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.097338299418604654" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="oih-Dg-lHs" secondAttribute="height" multiplier="1:1" id="SpP-ik-SB3"/>
                                                 </constraints>
